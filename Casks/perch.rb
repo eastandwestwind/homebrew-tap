@@ -5,7 +5,7 @@ cask "perch" do
   url "https://github.com/eastandwestwind/perchfocus.com/releases/download/v#{version}/Perch-arm64.dmg",
       verified: "github.com/eastandwestwind/perchfocus.com/"
   name "Perch"
-  desc "Calm Mac home for your Claude Code sessions"
+  desc "Calm home for your Claude Code sessions"
   homepage "https://perchfocus.com/"
 
   livecheck do
@@ -15,7 +15,7 @@ cask "perch" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Perch.app"
 
