@@ -1,6 +1,6 @@
 cask "perch" do
-  version "0.1.12"
-  sha256 "ae2f1251c0e6213d94af1c44274829ce3f94ac0e86d4599c6e8aa57a4aecc0cb"
+  version "0.1.13"
+  sha256 "3640af00b830c5e6a4c50a635cbc97841b3a466e475268b04c72e0a0d88c103d"
 
   url "https://github.com/eastandwestwind/perchfocus.com/releases/download/v#{version}/Perch-arm64.dmg"
   name "Perch"
